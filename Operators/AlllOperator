@@ -1,0 +1,65 @@
+class AllOperator
+{
+ public static void main(String args[])
+    {
+      int a=10,b=20;
+       Boolean x=true,y=false;
+
+                  //Arithmetic Operator
+           System.out.println("Arithmetic Operators:");
+             System.out.println("a+b="+(a+b));                //Addition=30
+              System.out.println("a-b="+(a-b));               //Subtraction=-10
+               System.out.println("a*b="+(a*b));             //Multiplication=200  
+                System.out.println("a/b="+(a/b));            //Division=0
+                 System.out.println("a%b="+(a%b));           //Modulus=10
+ 
+                    //Relational Operators
+                 System.out.println("Relational Operators:");
+                  System.out.println("a>b="+(a>b));            //false
+                   System.out.println("a<b="+(a<b));           //true
+                    System.out.println("a==b="+(a==b));          //false
+                     System.out.println("a!=b="+(a!=b));          //true
+ 
+                     //Logical Operators
+                   System.out.println("Logical Operators:");
+                    System.out.println("x&&y="+(x&&y));           //false
+                     System.out.println("x||y="+(x||y));          //true
+                      System.out.println("!x="+(!x));             //false
+                       System.out.println("!y="+(!y));            //true
+ 
+                   //Assignment Operators
+                    System.out.println("Assignment Operators:");
+                      int c=a;
+                       System.out.println("c="+c);                //c=10
+                        c+=5;
+                         System.out.println("c+=5:"+c);          //c+=5:-15
+                          c*=2;
+                           System.out.println("c*=2:"+c);        //c*=2:-30
+                            c/=3;
+                             System.out.println("c/=3:"+c);      //c/=3:-10
+                              c%=4;
+                               System.out.println("c%=4:"+c);    //c%=4:-2
+ 
+                          //Unary Operators
+                        System.out.println("Unary Operators:");
+                          System.out.println("++a="+(++a));            //Pre Increment=11
+                           System.out.println("After ++a;a="+a);       //After Pre Increment=11
+                            System.out.println("b--="+(b--));          //Post Decrement=20
+                              System.out.println("After b--;b="+b);    //After Post Decrement=19
+    }
+}
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
